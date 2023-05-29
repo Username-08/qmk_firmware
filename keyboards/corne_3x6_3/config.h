@@ -1,0 +1,41 @@
+// Copyright 2023 Username-08 (@Username-08)
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#pragma once
+
+/*
+ * Feature disable options
+ *  These options are also useful to firmware size reduction.
+ */
+
+/* disable debug print */
+//#define NO_DEBUG
+
+/* disable print */
+//#define NO_PRINT
+
+/* disable action features */
+//#define NO_ACTION_LAYER
+//#define NO_ACTION_TAPPING
+//#define NO_ACTION_ONESHOT
+#define MATRIX_ROWS 8
+#define MATRIX_COLS  6
+
+#define USE_SERIAL
+#define SOFT_SERIAL_PIN A5
+
+#define MASTER_RIGHT
+
+#define SPLIT_USB_DETECT
+#define SPLIT_USB_TIMEOUT 5000
+
+// #define EE_HANDS
+
+
+
+// #define BACKLIGHT_PWM_DRIVER  PWMD2
+// #define BACKLIGHT_PWM_CHANNEL 1
+// //
+// #define ADC_PIN A0
+//
+// #define RGB_CI_PIN A2
