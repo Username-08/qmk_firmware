@@ -12,8 +12,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["A1", "A2", "A3", "A4", "A6", "A7"],
-        "rows": ["B12", "B13", "B14", "B15"]
+        "cols": ["B5", "B6", "B13", "B12", "B8", "A7"],
+        "rows": ["B10", "B0", "A3", "A1"]
     },
     "development_board": "bluepill",
     "url": "",
